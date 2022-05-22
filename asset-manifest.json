@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/magic-match/static/css/main.4a2ca3ae.css",
+    "main.js": "/magic-match/static/js/main.4182bf8c.js",
+    "index.html": "/magic-match/index.html",
+    "main.4a2ca3ae.css.map": "/magic-match/static/css/main.4a2ca3ae.css.map",
+    "main.4182bf8c.js.map": "/magic-match/static/js/main.4182bf8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a2ca3ae.css",
+    "static/js/main.4182bf8c.js"
+  ]
+}
