@@ -1,6 +1,9 @@
 .App {
   max-width: 860px;
   margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   .btn {
     $contrast: #fff;
     background: none;
@@ -10,9 +13,21 @@
     font-weight: bold;
     cursor: pointer;
     font-size: 1em;
+    transition: all ease-in 0.1s;
     &:hover {
       background-color: hotpink;
-      color: $contrast
+      border: 2px solid rgb(252, 71, 162);
     }
+    &:active {
+      background-color: rgb(124, 24, 74);
+      border: 2px solid rgb(74, 8, 41);
+    }
+  }
+  .cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
   }
 }
