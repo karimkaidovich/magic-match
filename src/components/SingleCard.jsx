@@ -10,7 +10,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
       <img className={`${styles.front} ${styles.img} ${flipped ? `${styles.flipped}` : ""}`} src={card.src} alt='card front' />
       <img onClick={handleClick}
            className={`${styles.back} ${styles.img}  ${flipped ? `${styles.flipped}` : ""}`}
-           src="/img/bgcover.png"
+           src="./img/bgcover.png"
            alt='card back'
       />
     </div>

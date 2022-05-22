@@ -7,6 +7,10 @@
     object-position: center;
     border-radius: 6px;
     border: 2px solid #fff;
+
+    @media screen and (max-width: 320px) {
+      border: 1px solid #fff;
+    }
   }
   .back {
     transition: all ease-in 0.2s;

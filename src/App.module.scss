@@ -29,5 +29,13 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
     padding: 20px;
+
+    @media screen and (max-width: 560px) {
+      gap: 15px;
+    }
+
+    @media screen and (max-width: 320px) {
+      gap: 10px;
+    }
   }
 }
