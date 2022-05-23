@@ -1,13 +1,14 @@
 import styles from './App.module.scss';
 import { useEffect, useState } from 'react'
 import SingleCard from './components/SingleCard'
+
 const cardImages = [
-  { "src": "./img/blue-1.jpeg", matched: false },
-  { "src": "./img/brain-1.jpeg", matched: false },
-  { "src": "./img/green-1.jpeg", matched: false },
-  { "src": "./img/heart-1.jpeg", matched: false },
-  { "src": "./img/orange-1.jpeg", matched: false },
-  { "src": "./img/red-1.jpeg", matched: false }
+  { "src": "./img/blue.jpeg", matched: false },
+  { "src": "./img/brain.jpeg", matched: false },
+  { "src": "./img/green.jpeg", matched: false },
+  { "src": "./img/heart.jpeg", matched: false },
+  { "src": "./img/orange.jpeg", matched: false },
+  { "src": "./img/red.jpeg", matched: false }
 ]
 
 function App() {
